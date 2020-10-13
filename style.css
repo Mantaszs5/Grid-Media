@@ -68,7 +68,13 @@ main {
     main {
         grid-template: 1fr / 1fr;
     }
-    .Sushi {
-        grid-template: 1;
+     .Sushi {
+        grid-row: 3;
+    }
+    .Beef {
+        grid-row: 2;
+    }
+    .Chicken {
+        grid-row: 1;
     }
 }
